@@ -27,3 +27,7 @@ to run it from cmd you need to go to the desired directory and from there run:
      
 the converted images will be saved in the same directory path you provided with the name 'image_<last_saved_id+1>.jpg'.
 For the first image, the last_saved_id will be 0. Therefore its name will be “image_1.jpg” 
+
+the test files includes:
+- running a benchmark between the native and the multi-threaded implementation
+- checking the runtime of the multi-threaded implementation vs. the number of running threads.
